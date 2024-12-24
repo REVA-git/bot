@@ -6,7 +6,7 @@ authors = ["Ganesh Rao <mister.xrao@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.13"
+python = ">=3.12,<3.13"
 langchain = "^0.3.13"
 fastapi = {extras = ["standard"], version = "^0.115.6"}
 langchain-google-genai = "^2.0.7"
@@ -14,6 +14,8 @@ langchain-core = "^0.3.28"
 langchain-community = "^0.3.13"
 langgraph = "^0.2.60"
 python-dotenv = "^1.0.1"
+fastembed = "^0.4.2"
+chromadb = "^0.5.23"
 
 
 [build-system]

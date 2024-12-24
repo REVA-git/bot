@@ -4,9 +4,8 @@ from fastapi import FastAPI
 import os
 from src.core.assistant import Assistant
 
-load_dotenv()
 
-# print(os.getenv("GOOGLE_API_KEY"))
+print(os.getenv("GOOGLE_API_KEY"))
 
 chatbot = Assistant()
 app = FastAPI()
