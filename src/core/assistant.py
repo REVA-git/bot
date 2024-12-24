@@ -1,7 +1,6 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage, AIMessage
-from langgraph.graph import MessagesState
-from langgraph.graph import StateGraph
+from langgraph.graph import StateGraph, MessagesState
 
 from src.core.db import DB
 from langchain_core.prompts import ChatPromptTemplate
