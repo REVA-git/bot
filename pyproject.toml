@@ -12,6 +12,8 @@ fastapi = {extras = ["standard"], version = "^0.115.6"}
 langchain-google-genai = "^2.0.7"
 langchain-core = "^0.3.28"
 langchain-community = "^0.3.13"
+langgraph = "^0.2.60"
+python-dotenv = "^1.0.1"
 
 
 [build-system]
