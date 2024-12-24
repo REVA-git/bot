@@ -15,7 +15,6 @@ class DB:
         self.store = Chroma(
             persist_directory="./chroma_db", embedding_function=self.embedding
         )
-        self._load_documents()
 
     def get_retriever(self):
         return self.store.as_retriever(
